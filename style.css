@@ -57,7 +57,7 @@
 
 .homepage-nav-logo:hover {
     transform: scale(1.001);
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px var(--primary-color);
 }
 
 .nav-bar-right-side {
@@ -104,14 +104,14 @@
 
 .caption-content1,
 .caption-content2 {
-    opacity: 0;
+    /* opacity: 0; */
     padding: 1rem;
     line-height: 6rem;
     color: var(--secondary-color);
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
-    left: 19%;
     top: 50%;
+    width:100%;
     text-align: center;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .bi-twitter,
-.bi-linkedin {
+.bi-linkedin,.bi-github {
     color: var(--footer-icon-hover-color);
     padding: 1.5rem;
     border-radius: 50%;
