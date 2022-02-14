@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 10px var(--primary-color);
 }
 
 .title-container {
@@ -67,11 +67,11 @@
     text-decoration: underline;
 }
 
-.click-image{
-    position:absolute;
-    bottom:1rem;
-    left:1rem;
-    color:var(--footer-icon-hover-color)
+.click-image {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: var(--footer-icon-hover-color)
 }
 
 .footer {
