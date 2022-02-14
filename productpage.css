@@ -7,74 +7,60 @@
 .main-product-container {
     overflow: hidden;
     width: 90%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     box-shadow: 2px 2px 10px var(--primary-color);
 }
 
 .title-container {
+    text-align: center;
     margin: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .product-container {
+    margin:2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .product-container img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.keyboard-image-container {
-    position: relative;
-    margin: 2rem;
     overflow: hidden;
-    border-radius: 1rem;
+    width:100%;
+    object-fit: contain;
+    transition: 0.3s;
 }
 
-.image-container-hover {
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-.image-container-hover img {
-    transition: transform 0.5s;
-}
-
-.image-container-hover:hover img {
+.product-container img:hover{
     transform: scale(1.2);
 }
 
-.mouse-keycap-img-container {
+.img-container{
     position: relative;
+    margin:1rem;
+    overflow:hidden;
     border-radius: 1rem;
-    overflow: hidden;
-    margin: 2rem;
 }
 
-.text-overlay {
-    position: absolute;
-    color: var(--secondary-color);
-    top: 2rem;
-    left: 2rem;
-    font-size: 4rem;
+.img-container img{
+    object-fit: cover;
+    display:block;
+}
+
+.mice-keycap-img-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.product-img-txt-overlay{
+    font-size: 2rem;
+    color:var(--secondary-color) ;
     text-decoration: underline;
+    position:absolute;  
+    top:1rem;
+    left:1rem;
 }
-
-.click-image {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    color: var(--footer-icon-hover-color)
-}
-
-.footer {
-
-    margin-top: 10rem;
+.footer{
+    margin-top:10rem;
 }
