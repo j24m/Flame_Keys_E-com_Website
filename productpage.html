@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlameKeys | Product Listing Page</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>FlameKeys | Product listing page</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://flameui.netlify.app/components.css">
     <link rel="stylesheet" href="./productpage.css">
 </head>
 
 <body>
-    <div class="product-listing-page-container">
+    <div class="product-listing-page">
+        <!-- Navbar starts here -->
         <div class="nav-bar">
-            <a class="homepage-nav-links" href="./index.html">
+            <a class="homepage-nav-links" href="./index.html" target="_blank">
                 <div class="homepage-nav-logo">
                     <div>FlameKeys</div>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,13 +36,13 @@
                         <span class="icon small"><i class="bi bi-search"></i></span>
                         <input class="input-field" placeholder="Search" type="text" />
                     </label>
-                </div>
-                <a class="homepage-nav-links" href="./productpage.html">
+                    * </div>
+                <a class="homepage-nav-links" href="#">
                     <div>OUR PRODUCTS</div>
                 </a>
 
 
-                <a class="homepage-nav-links" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                <a class="homepage-nav-links" href="./cart.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
                         class="iconify iconify--heroicons-outline" width="32" height="32"
                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
@@ -53,7 +54,7 @@
                         </g>
                     </svg></a>
 
-                <a class="homepage-nav-links" href=""><svg xmlns="http://www.w3.org/2000/svg"
+                <a class="homepage-nav-links" href="./wishlist.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
                         class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 24 24">
@@ -61,29 +62,54 @@
                             d="M12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3z"
                             fill="currentColor"></path>
                     </svg></a>
-                <!-- Avatar  to be added -->
+
+                    <a class="homepage-nav-links" href="./login.html" target="_blank">
+                        <div>LOGIN</div>
+                    </a>
+
+                <!-- Avatar -->
+                <a href="#">
+                    <div class="avatar avatar-sm">
+                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="main-product-container">
+        <!-- Navbar ends here -->
+
+        <!-- Product container starts -->
+        <div class="allproducts-container">
+
+            <!-- Product heading starts -->
             <div class="title-container">
                 <h1>OUR PRODUCTS</h1>
-                <h3>Dive into a wide range of mechanical keyboards and other peripherals</h3>
+                <h2>Dive into a wide range of mechanical keyboards and other peripherals</h2>
             </div>
-            <div class="product-container">
-                <div class="img-container">
-                    <a href="#"><img src="./Images/product-keyboard-image.webp" alt=""></a>
+            <!-- Product heading ends -->
+
+            <div class="product-img-container">
+                <div class="img1-container">
+                    <a href="./single-product.html" target="_blank">
+                        <img src="./Images/product-keyboard-image.webp" alt="">
+                    </a>
                     <div class="product-img-txt-overlay">
                         <h1>Mech Keyboards</h1>
                         <h2>Tap on image for more products</h2>
                     </div>
                 </div>
-                <div class="mice-keycap-img-container">
-                    <div class="img-container"><a href="#"><img src="./Images/product-mouse.webp" alt=""></a>
+                <div class="img2and3-container">
+                    <div class="img2-container">
+                        <a href="./single-product.html" target="_blank">
+                            <img src="./Images/product-mouse.webp" alt="">
+                        </a>
                         <div class="product-img-txt-overlay">
                             <h1>Mice</h1>
                         </div>
                     </div>
-                    <div class="img-container"><a href="#"><img src="./Images/product-keycap.webp" alt=""></a>
+                    <div class="img3-container">
+                        <a href="./single-product.html" target="_blank">
+                            <img src="./Images/product-keycap.webp" alt="">
+                        </a>
                         <div class="product-img-txt-overlay">
                             <h1>KeyCaps</h1>
                         </div>
@@ -91,15 +117,20 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <h1>Made with <span class="heart-icon">❤</span> by Jyotsna Mehta.</h1>
-        <h1>Follow Me.</h1>
-        <div class="social-media-handles">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-github"></i></a>
+        <!-- products container ends here -->
+
+        <!-- footer starts here -->
+        <div class="footer">
+            <h1>Made with <span class="heart-icon">❤</span> by Jyotsna Mehta.</h1>
+            <h1>Follow Me.</h1>
+            <div class="social-media-handles">
+                <a class="footer-links" href="https://twitter.com/JyotsnaMehta24" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a class="footer-links" href="https://www.linkedin.com/in/jyotsna-mehta-795846215/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a class="footer-links" href="https://github.com/j24m" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
         </div>
+        <!-- footer ends here -->
+
     </div>
 </body>
 

@@ -1,66 +1,69 @@
-.product-listing-page-container .nav-bar {
-    position: static;
-    background: var(--primary-color);
-    margin-bottom: 10rem;
+.nav-bar{
+    margin-bottom: 5rem;
 }
-
-.main-product-container {
+.allproducts-container{
     overflow: hidden;
-    width: 90%;
-    margin: auto;
-    box-shadow: 2px 2px 10px var(--primary-color);
+    padding:2rem;
+    width:80%;
+    margin:auto;
+    box-shadow: 2px 2px 10px var(--secondary-color);
 }
 
-.title-container {
+.allproducts-container .title-container{
     text-align: center;
     margin: 3rem;
     font-size: 2rem;
 }
 
-.product-container {
-    margin:2rem;
-    display: grid;
+.allproducts-container .product-img-container{
+    padding: 1rem;
+    width: 100%;
+    display:grid;
     grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    overflow: hidden;
 }
 
-.product-container img {
-    overflow: hidden;
+.allproducts-container .product-img-container img{
     width:100%;
     object-fit: contain;
+    overflow: hidden;
     transition: 0.3s;
 }
 
-.product-container img:hover{
-    transform: scale(1.2);
+.allproducts-container .product-img-container img:hover{
+    transform: scale(1.3);
 }
 
-.img-container{
-    position: relative;
-    margin:1rem;
-    overflow:hidden;
+.img1-container, .img2-container, .img3-container{
     border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
 }
 
-.img-container img{
-    object-fit: cover;
-    display:block;
+.img1-container img, .img2-container img, .img3-container img{
+    display: block;
 }
 
-.mice-keycap-img-container{
-    display:flex;
+.img2and3-container{
+    display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-.product-img-txt-overlay{
+.allproducts-container .product-img-txt-overlay{
     font-size: 2rem;
-    color:var(--secondary-color) ;
     text-decoration: underline;
-    position:absolute;  
+    position: absolute;
+    color: var(--light-color);
     top:1rem;
-    left:1rem;
+    left: 1rem;
+
 }
+
 .footer{
-    margin-top:10rem;
+    margin-top: 5rem;
 }
+
+

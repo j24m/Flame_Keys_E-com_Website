@@ -13,9 +13,46 @@ html{
     font-family: "Roboto Condensed", sans-serif;
 }
 :root{
-    --primary-color : #000000;
-    --secondary-color : #ffffff;
-    --opacity-color: rgba(0,0,0,0.5);
     --footer-icon-hover-color: darkslateblue;
-    --red-shade-color:red;
+}
+
+.footer {
+    gap: 2.5rem;
+    background-color: var(--secondary-color);
+    height: 20rem;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.heart-icon {
+    color: var(--dark-color);
+}
+
+.social-media-handles {
+    display: flex;
+    gap: 2rem;
+    font-size: 2.5rem;
+}
+
+.footer-links{
+    transition: 1s ease-in-out;
+}
+
+.footer-links:hover{
+    transform: rotateY(360deg);
+}
+
+.bi-twitter,
+.bi-linkedin,.bi-github {
+    color: var(--footer-icon-hover-color);
+    padding: 1.5rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--secondary-color);
+
 }
