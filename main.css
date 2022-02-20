@@ -14,6 +14,7 @@ html{
 }
 :root{
     --footer-icon-hover-color: darkslateblue;
+    --link-hover-bg-color:#eaece5;
 }
 
 .footer {
