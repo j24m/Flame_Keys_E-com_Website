@@ -1,0 +1,8 @@
+.wishlist-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 79vh;
+    gap:2rem;
+}
