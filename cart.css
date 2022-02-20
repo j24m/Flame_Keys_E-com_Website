@@ -1,0 +1,47 @@
+.cart-card-container {
+    padding: 1rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cart-card-container .horizontal-card{
+    width:40%;
+}
+
+.cart-card-container .bill-details-card {
+    border: 1px solid var(--button-floatHover-color);
+    width: 20%;
+    height: 35rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--link-hover-bg-color);
+}
+
+.cart-card-container .bill-details-card .heading {
+    border-bottom: 1px solid var(--button-floatHover-color);
+    margin-bottom: 4rem;
+}
+
+.cart-card-container .bill-details-card .ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cart-card-container .bill-details-card .ul .li-price {
+    width: 40%;
+    text-align: right;
+}
+
+.cart-card-container .bill-details-card .ul li:hover {
+    transform: scale(1);
+}
+
+.cart-card-container .bill-details-card .btn {
+    width: 100%;
+    margin-top: 3rem;
+}
