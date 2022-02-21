@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlameKeys | Cart Page </title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="./darktheme.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://flameui.netlify.app/components.css">
     <link rel="stylesheet" href="./cart.css">
+    <script defer src="./darktheme.js"></script>
 </head>
 
 <body>
@@ -75,12 +76,21 @@
                         <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
                     </div>
                 </a>
+                <div class="theme-toggle">
+                    <input type="checkbox" class="theme-toggle__checkbox" id="theme-toggle" />
+                    <label class="theme-toggle__label" for="theme-toggle">
+                        <span class="theme-toggle__icon">
+                            <i class="bi bi-moon-stars-fill"></i></i><i
+                                class="bi bi-brightness-high-fill hide-toggle-icon"></i>
+                        </span>
+                    </label>
+                </div>
             </div>
         </div>
         <!-- Nav bar ends here -->
         <!-- Cart-card-container starts here -->
         <div class="cart-card-container">
-            <div class="horizontal-card">
+            <div class="box-shadow horizontal-card">
                 <div class="card-img-container">
                     <img src="../Images/multicolor-keyboard.jpg" alt="white-keyboard">
                 </div>
@@ -134,14 +144,16 @@
             </div>
         </div>
         <!-- Cart-card-container ends here -->
-        
+
         <!-- footer starts here -->
         <div class="footer">
             <h1>Made with <span class="heart-icon">❤</span> by Jyotsna Mehta.</h1>
             <h1>Follow Me.</h1>
             <div class="social-media-handles">
-                <a class="footer-links" href="https://twitter.com/JyotsnaMehta24" target="_blank"><i class="bi bi-twitter"></i></a>
-                <a class="footer-links" href="https://www.linkedin.com/in/jyotsna-mehta-795846215/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a class="footer-links" href="https://twitter.com/JyotsnaMehta24" target="_blank"><i
+                        class="bi bi-twitter"></i></a>
+                <a class="footer-links" href="https://www.linkedin.com/in/jyotsna-mehta-795846215/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
                 <a class="footer-links" href="https://github.com/j24m" target="_blank"><i class="bi bi-github"></i></a>
             </div>
         </div>

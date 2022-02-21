@@ -1,0 +1,40 @@
+body {
+    color: var(--secondary-color);
+}
+
+body.dark-theme {
+    color: var(--light-color);
+    background-color: var(--button-floatHover-color);
+}
+
+.theme-toggle {
+    position: relative;
+}
+
+.theme-toggle__checkbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.theme-toggle__label {
+    cursor: pointer;
+}
+
+.theme-toggle input {
+    display: none;
+}
+
+.bi-brightness-high-fill {
+    color: var(--yellow-shade-color);
+}
+
+.theme-toggle__icon {
+    font-size: 2.5rem;
+    color: var(--light-color);
+}
+
+.hide-toggle-icon {
+    display: none;
+}
