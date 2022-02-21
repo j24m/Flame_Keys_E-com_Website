@@ -3,18 +3,21 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css%27');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
     font-family: "Roboto Condensed", sans-serif;
 }
-:root{
+
+:root {
     --footer-icon-hover-color: darkslateblue;
-    --link-hover-bg-color:#eaece5;
+    --link-hover-bg-color: #eaece5;
+    --dark-theme-box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 1);
 }
 
 .footer {
@@ -39,16 +42,17 @@ html{
     font-size: 2.5rem;
 }
 
-.footer-links{
+.footer-links {
     transition: 1s ease-in-out;
 }
 
-.footer-links:hover{
+.footer-links:hover {
     transform: rotateY(360deg);
 }
 
 .bi-twitter,
-.bi-linkedin,.bi-github {
+.bi-linkedin,
+.bi-github {
     color: var(--footer-icon-hover-color);
     padding: 1.5rem;
     border-radius: 50%;

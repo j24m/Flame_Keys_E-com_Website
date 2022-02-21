@@ -1,3 +1,7 @@
+.dark-theme .box-shadow {
+    box-shadow: var(--dark-theme-box-shadow);
+}
+
 .single-product-page-container .nav-bar {
     margin-bottom: 2rem;
 }
@@ -9,7 +13,7 @@
 .single-product-page-container .sidebar-products-container .sidebar-container {
     min-width: 25rem;
     padding: 0 3rem;
-    border-right:1px solid var(--button-floatHover-color);
+    border-right: 1px solid var(--button-floatHover-color);
 }
 
 .single-product-page-container .sidebar-products-container .product-card-container {
@@ -20,7 +24,7 @@
     flex-grow: 1;
     padding: 0 2rem 0 3rem;
     height: auto;
-    gap:2rem;
+    gap: 5rem;
 }
 
 .sidebar-container .filter-heading {
@@ -37,16 +41,18 @@
 }
 
 .sidebar-container .ul li:hover {
-    background-color: var(--link-hover-bg-color);
-    border-radius: 0.5rem;
+    transform: scale(1);
+    cursor: pointer;
 }
 
-.sidebar-container .ul .link:hover {
-    color: var(--text-gray-color);
-}
-
-.radio-input, .checkbox-input{
+.radio-input,
+.checkbox-input {
     justify-content: flex-start;
+}
+
+.checkbox-input input:hover,
+.checkbox-input label:hover {
+    cursor: pointer;
 }
 
 .slider-container {
@@ -76,7 +82,10 @@
     background-color: var(--link-hover-bg-color);
 }
 
-.footer{
-    margin-top:3rem;
+.single-product-page-container .product-card-container .e-commerce-card {
+    color: var(--secondary-color);
 }
 
+.footer {
+    margin-top: 3rem;
+}

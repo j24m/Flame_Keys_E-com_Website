@@ -18,8 +18,8 @@
     }
 }
 
-.nav-bar{
-    background-color:transparent;
+.nav-bar {
+    background-color: transparent;
     position: fixed;
     top: 0;
 }
@@ -32,7 +32,7 @@
     font-size: 2rem;
     position: absolute;
     top: 50%;
-    width:100%;
+    width: 100%;
     text-align: center;
 }
 
@@ -99,8 +99,3 @@
         opacity: 0;
     }
 }
-
-
-
-
-

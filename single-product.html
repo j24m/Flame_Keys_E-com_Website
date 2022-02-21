@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlameKeys | Single Product Page</title>
+    <link rel="stylesheet" href="./darktheme.css">
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://flameui.netlify.app/components.css">
     <link rel="stylesheet" href="./single-product.css">
+    <script defer src="./darktheme.js"></script>
 </head>
 
 <body>
@@ -74,6 +76,16 @@
                         <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
                     </div>
                 </a>
+
+                <div class="theme-toggle">
+                    <input type="checkbox" class="theme-toggle__checkbox" id="theme-toggle" />
+                    <label class="theme-toggle__label" for="theme-toggle">
+                        <span class="theme-toggle__icon">
+                            <i class="bi bi-moon-stars-fill"></i></i><i
+                                class="bi bi-brightness-high-fill hide-toggle-icon"></i>
+                        </span>
+                    </label>
+                </div>
             </div>
         </div>
         <!-- nav bar ends here -->
@@ -85,117 +97,72 @@
                 <h2 class="sidebar-cmp-heading">CATEGORY</h2>
                 <ul class="ul">
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">xyz</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="keyboard" type="checkbox" name="check" /><label for="keyboard">Keyboards</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">xyz</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="mice" type="checkbox" name="check" /><label for="mice">Mice</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">xyz</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="keycaps" type="checkbox" name="check" /><label for="keycaps">KeyCaps</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">xyz</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="cable" type="checkbox" name="check" /><label for="cable">Cables</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">xyz
-                                </label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="graphics-card" type="checkbox" name="check" /><label for="graphics-card">Graphics
+                                Cards
+                            </label>
+                        </div>
                     </li>
                 </ul>
                 <ul class="ul">
                     <h2 class="sidebar-cmp-heading">BRANDS</h2>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">Brand</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="brand-1" type="checkbox" name="check" /><label for="brand-1">Brand</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">Brand</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="brand-2" type="checkbox" name="check" /><label for="brand-2">Brand</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">Brand</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="brand-3" type="checkbox" name="check" /><label for="brand-3">Brand</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">Brand</label>
-                            </div>
-                        </a>
+
+                        <div class="checkbox-input">
+                            <input id="brand-4" type="checkbox" name="check" /><label for="brand-4">Brand</label>
+                        </div>
+
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">Brand</label>
-                            </div>
-                        </a>
+
+                        <div class="checkbox-input">
+                            <input id="brand-5" type="checkbox" name="check" /><label for="brand-5">Brand</label>
+                        </div>
+
                     </li>
                 </ul>
                 <ul class="ul">
                     <h2 class="sidebar-cmp-heading">Avg. Rating</h2>
-                    <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">  <strong class="star-symbol">✰✰✰✰✰</strong></label>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">  <strong class="star-symbol">✰✰✰✰</strong></label>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">  <strong class="star-symbol">✰✰✰</strong></label>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">  <strong class="star-symbol">✰✰</strong></label>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">  <strong class="star-symbol">✰</strong></label>
-                            </div>
-                        </a>
-                    </li>
+                    <li class="star-symbol"> <strong> ✰✰✰✰✰ </strong> </li>
+                    <li class="star-symbol"> <strong> ✰✰✰✰ </strong> </li>
+                    <li class="star-symbol"> <strong> ✰✰✰ </strong> </li>
+                    <li class="star-symbol"> <strong> ✰✰ </strong> </li>
+                    <li class="star-symbol"> <strong> ✰ </strong> </li>
                 </ul>
                 <ul class="ul">
                     <h2 class="sidebar-cmp-heading">
@@ -210,42 +177,34 @@
                 <ul class="ul">
                     <h2 class="sidebar-cmp-heading">Discount</h2>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">10% Off or
-                                    more</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="off-by-10" type="checkbox" name="check" /><label for="off-by-10">10% Off or
+                                more</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">25% Off or
-                                    more</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="off-by-25" type="checkbox" name="check" /><label for="off-by-25">25% Off or
+                                more</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">35% Off or
-                                    more</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="off-by-35" type="checkbox" name="check" /><label for="off-by-35">35% Off or
+                                more</label>
+                        </div>
                     </li>
                     <li>
-                        <a class="link" href="#">
-                            <div class="checkbox-input">
-                                <input id="check" type="checkbox" name="check" /><label for="check">50% Off or
-                                    more</label>
-                            </div>
-                        </a>
+                        <div class="checkbox-input">
+                            <input id="off-by-50" type="checkbox" name="check" /><label for="off-by-50">50% Off or
+                                more</label>
+                        </div>
                     </li>
-
                 </ul>
             </div>
+
             <div class="product-card-container">
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -278,7 +237,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -311,7 +270,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -344,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -377,7 +336,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -410,7 +369,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -443,7 +402,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -476,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -509,7 +468,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -542,7 +501,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -575,7 +534,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
@@ -608,7 +567,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="e-commerce-card">
+                <div class="e-commerce-card box-shadow">
                     <div class="badge-on-card">
                         20% OFF
                     </div>
