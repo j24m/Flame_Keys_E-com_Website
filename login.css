@@ -7,6 +7,15 @@
 
 .modal-container {
     background-color: transparent;
+    cursor: pointer;
+}
+
+.modal-container button {
+    transition: 0.2s;
+}
+
+.modal-container button:hover {
+    transform: translateY(5px);
 }
 
 .dark-theme .box-shadow {

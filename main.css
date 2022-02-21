@@ -61,3 +61,10 @@ html {
     border: 1px solid var(--secondary-color);
 
 }
+
+.page-heading{
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    border: 3px solid var(--secondary-color);
+}
